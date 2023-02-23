@@ -1,0 +1,46 @@
+body, html{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.words {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 33%;
+    font-size: 30px;
+}
+
+.txtInputDiv {
+    width: 100%;
+    height: 30%;
+}
+
+.txtInput {
+    width: 100%;
+    font-size: 20px;
+}
+txtInputDiv input {
+    margin-top: 10px;
+    height: 100%;
+}
+
+#word-of-words {
+    margin: 0 10px 0 0;
+}
+
+#red-car {
+    width: 5%;
+    height: 5%;
+    transform: scaleX(-1);
+}
+.cars-div {
+    width: 33%;
+    height: 25%;
+    border: 1px solid black;
+}
